@@ -1,0 +1,27 @@
+List of shit we should/could get working on at some point in time
+
+Add/remove things accordingly. More things will most likely be added/elaborated upon.
+The first list is a mix between bare necessities (@) and general ideas (*).
+
+- Combat.
+  @sword/dagger/melee in general: create sword/thing in front of player's face,
+  play animation, check collisions, disable object
+  @magic/ranged: create projectile, give speed, check collisions and deal damage.
+  *potentially knockback as well if we can figure that out. 
+  *charge attacks?
+  
+- More interface stuff
+  @quest log interface
+  @profile screen (stats, inventory) 
+  @stats for nerds (HP, mana, stamina, etc)
+  
+- Sprites (scenery is flowing like the amazon river, fast and furious. we just need other stuff)
+  @weapons
+  @enemies, or at least enemy
+  
+- Animation for characters
+  @walking
+  @animation
+  
+note to selves: learn how to animate spritesheets and program well. fuck.
+  
