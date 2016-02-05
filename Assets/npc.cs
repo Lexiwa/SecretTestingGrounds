@@ -21,10 +21,12 @@ public class npc : MonoBehaviour {
             player = GameObject.FindGameObjectWithTag("Player").transform;
             playerUI = player.GetComponent<UImanager>();
         }
+
         if(Vector3.Distance(transform.position, player.position) < 2 && Input.GetKeyDown(KeyCode.Z))
         {
             Interact();
         }
+
         if (Vector3.Distance(transform.position, player.position) > 3 && currentlyTalking == true)
         {
             currentlyTalking = false;

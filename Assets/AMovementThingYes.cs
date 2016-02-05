@@ -10,36 +10,34 @@ public class AMovementThingYes : MonoBehaviour {
     Rigidbody2D rb;
     float spd = 7;
     bool isMoving = false;
+    public static bool playerHasControl = true;
     // Update is called once per frame
 
     void Update ()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) && playerHasControl)
         {
             isMoving = true;
             rb.AddForce(new Vector2(0, 12));
-            //transform.Translate(Vector3.up * spd * Time.deltaTime);
             spd = 7;
         }
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) && playerHasControl)
         {
             isMoving = true;
             rb.AddForce(new Vector2(-12, 0));
-            //transform.Translate(Vector3.left * spd * Time.deltaTime);
             spd = 7;
         }
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.S) && playerHasControl)
         {
             isMoving = true;
             rb.AddForce(new Vector2(0, -12));
-            //transform.Translate(Vector3.down * spd * Time.deltaTime);
             spd = 7;
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) && playerHasControl)
         {
             rb.AddForce(new Vector2(12, 0));
-            //transform.Translate(Vector3.right * spd * Time.deltaTime);
             spd = 7;
         }
     }
+
 }
