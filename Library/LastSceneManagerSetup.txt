@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/THETHING.unity
+- path: Assets/scenes/standard.unity
   isLoaded: 1
   isActive: 1

@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{12C08890-4269-DF29-6949-6BB142E978F9}</ProjectGuid>
+    <ProjectGuid>{2981AC23-FD6D-6547-D693-CE1086B03682}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,14 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AMovementThingYes.cs" />
-     <Compile Include="Assets\CameraEffects.cs" />
-     <Compile Include="Assets\CameraMovement.cs" />
-     <Compile Include="Assets\PetBehaviour.cs" />
-     <Compile Include="Assets\PetInteraction.cs" />
-     <Compile Include="Assets\SmoothMovementThing.cs" />
-     <Compile Include="Assets\UImanager.cs" />
-     <Compile Include="Assets\npc.cs" />
+     <Compile Include="Assets\Scripts\CameraEffects.cs" />
+     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\SmoothMovementThing.cs" />
+     <Compile Include="Assets\Scripts\UImanager.cs" />
+     <Compile Include="Assets\Scripts\layers.cs" />
+     <Compile Include="Assets\Scripts\npc.cs" />
+     <Compile Include="Assets\Scripts\playerMovement.cs" />
+     <Compile Include="Assets\Scripts\spun.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
